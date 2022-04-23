@@ -18,7 +18,7 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(40, 40, 330, 50))
+        self.label.setGeometry(QtCore.QRect(60, 40, 270, 50))
         font = QtGui.QFont()
         font.setPointSize(22)
         self.label.setFont(font)
@@ -37,5 +37,5 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label.setText(_translate("MainWindow", "22点后自动关闭音乐软件"))
+        self.label.setText(_translate("MainWindow", "22点后自动关闭音乐"))
         self.label_2.setText(_translate("MainWindow", "运行中..."))
